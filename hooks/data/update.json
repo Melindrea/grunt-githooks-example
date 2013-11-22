@@ -1,0 +1,10 @@
+[
+    {
+        "file": "package.json",
+        "command": "npm update"
+    },
+    {
+        "file": "Gruntfile.js",
+        "command": "grunt githooks"
+    }
+]

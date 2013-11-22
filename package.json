@@ -1,0 +1,22 @@
+{
+  "name": "grunt-githooks-example",
+  "version": "0.1.0",
+  "description": "Example for using grunt githooks",
+  "private": true,
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Melindrea/grunt-githooks-example.git"
+  },
+  "author": "Marie Hogebrandt",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-githooks": "~0.3.0",
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.2.0",
+    "execSync": "~1.0.1-pre"
+  },
+  "scripts": {
+    "postinstall": "grunt githooks"
+  }
+}
